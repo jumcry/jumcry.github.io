@@ -18,6 +18,11 @@
     --text-medium: 500;
 }
 
+@font-face {
+	font-family: 'Shrikhand'; 
+	src: url(../webfonts/Shrikhand-Regular.ttf);
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -217,3 +222,13 @@ body {
 .qr_code {
     margin-top: 6px;
 }
+
+.logo_my {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: var(--white);
+	text-align: center;
+	font-family: 'Shrikhand', sans-serif;
+	font-size: 26px;
+}
+
