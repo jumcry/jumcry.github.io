@@ -82,6 +82,10 @@ body {
     color: var(--dark-800);
 }
 
+.form-control {
+    color: #3d4247;
+}
+
 .form-control.empty_field {
     border-color: var(--soft-red);
 }
